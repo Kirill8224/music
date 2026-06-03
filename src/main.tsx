@@ -15,6 +15,7 @@ function Baza() {
 
   return (
     <div className='main'>
+      <h1>музыкальный плеер</h1>
       <Headers />
       <button onClick={() => setSelectedTrack(null)}>reset selection</button>
       <div style={{ display: 'flex' }}>
